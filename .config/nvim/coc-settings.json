@@ -1,0 +1,12 @@
+{ "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    }
+  },
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/14.0.3/clangd_14.0.3/bin/clangd"
+  }
